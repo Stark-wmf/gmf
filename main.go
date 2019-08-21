@@ -57,7 +57,8 @@ func main() {
 		g.GET("/submit", Submitfunc)
 	}
 
-
+    r.GET("/login")
+	r.POST("/post")
 
 
 	// Listen and server on 0.0.0.0:8080
